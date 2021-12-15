@@ -1,5 +1,66 @@
 @charset "UTF-8";
+body {
+    background: rgb(188, 248, 166);
+}
+.inner {
+    background: linear-gradient(to right, #26f07a 0%,#3eb862 50%,#126925 100%);
+    border-radius: 0px;
+    max-width: 999px;
+    height: 0px;
+}
+.inner.puyopuyo{
+    animation: puyopuyo 2s ease-out infinite;
+    opacity: 1;
+}
+@keyframes puyopuyo {
+    0%, 40%, 60%, 80% {
+        transform: scale(1.0);
+    }
+    50%, 70% {
+        transform: scale(0.95);
+    }
+}
 
-.main-visual-style {
-    background-color: blue;
+.main-visual-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.main-visual-img {
+    position: relative;
+}
+.main-visual-img .active {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.main-visual-img:hover.active {
+    opacity: 1;
+}
+.main-visual-img img{
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.main-visual-img {animation: rotate 4s linear 0s infinite;}
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+.gazou1 {
+    display: none;
+}
+.gazou2 {
+    display: block;
+}
+.main-visual-img:hover > .gazou1 {
+    display: block;
+}
+.main-visual-img:hover > .gazou2 {
+    display: none;
 }
