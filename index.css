@@ -1,24 +1,11 @@
 @charset "UTF-8";
+#header {
+    position: relative;
+    height: 100vh;
+}
+#video
 body {
     background: rgb(188, 248, 166);
-}
-.inner {
-    background: linear-gradient(to right, #26f07a 0%,#3eb862 50%,#126925 100%);
-    border-radius: 0px;
-    max-width: 999px;
-    height: 0px;
-}
-.inner.puyopuyo{
-    animation: puyopuyo 2s ease-out infinite;
-    opacity: 1;
-}
-@keyframes puyopuyo {
-    0%, 40%, 60%, 80% {
-        transform: scale(1.0);
-    }
-    50%, 70% {
-        transform: scale(0.95);
-    }
 }
 
 .main-visual-img{
@@ -63,4 +50,7 @@ body {
 }
 .main-visual-img:hover > .gazou2 {
     display: none;
+}
+.works-item {
+    background: linear-gradient(#1899499a, #29b32586);
 }
