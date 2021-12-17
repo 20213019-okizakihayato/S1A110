@@ -1,9 +1,13 @@
 @charset "UTF-8";
-#header {
-    position: relative;
-    height: 100vh;
+
+header {
+    background: url(portfolio/img/banner-g74975db96_1920.jpg)  left bottom no-repeat;
+    
 }
-#video
+.header-logo a,.header-nav a{
+    color: rgba(210, 255, 138, 0.945);
+}
+
 body {
     background: rgb(188, 248, 166);
 }
@@ -33,7 +37,9 @@ body {
     cursor: pointer;
     transition-duration: 0.5s;
 }
-.main-visual-img {animation: rotate 4s linear 0s infinite;}
+.main-visual-img {
+    animation: rotate 4s linear 0s infinite;
+}
 @keyframes rotate{
     0% {transform: rotate(0deg);}
     50%{transform: rotate(180deg);}
@@ -53,4 +59,26 @@ body {
 }
 .works-item {
     background: linear-gradient(#1899499a, #29b32586);
+}
+.skill-item1 {
+    animation : rotate1 2.8s  infinite;
+}
+.skill-item2 {
+    animation : rotate2 2.8s  infinite;
+}
+.skill-item3 {
+    animation : rotate1 2.8s  infinite;
+}
+.skill-item4 {
+    animation : rotate2 2.8s  infinite;
+
+}@keyframes rotate1 {
+    0%  {transform: rotate(0deg);}
+    50% {transform: rotate(40deg);}
+    100%{transform: rotate(0deg);}
+}
+@keyframes rotate2 {
+    0%  {transform: rotate(0deg);}
+    50% {transform: rotate(-40deg);}
+    100%{transform: rotate(0deg);}
 }
