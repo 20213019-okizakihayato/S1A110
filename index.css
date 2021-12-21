@@ -65,24 +65,24 @@ body {
     background: linear-gradient(#1899499a, #29b32586);
 }
 .skill-item1 {
-    animation : rotate1 2.8s  infinite;
+    animation : rotate1 4s  infinite;
 }
 .skill-item2 {
-    animation : rotate2 2.8s  infinite;
+    animation : rotate2 4s  infinite;
 }
 .skill-item3 {
-    animation : rotate1 2.8s  infinite;
+    animation : rotate1 4s  infinite;
 }
 .skill-item4 {
-    animation : rotate2 2.8s  infinite;
+    animation : rotate2 4s  infinite;
 
 }@keyframes rotate1 {
     0%  {transform: rotate(0deg);}
-    50% {transform: rotate(40deg);}
+    50% {transform: rotate(20deg);}
     100%{transform: rotate(0deg);}
 }
 @keyframes rotate2 {
     0%  {transform: rotate(0deg);}
-    50% {transform: rotate(-40deg);}
+    50% {transform: rotate(-20deg);}
     100%{transform: rotate(0deg);}
 }
