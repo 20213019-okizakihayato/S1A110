@@ -64,7 +64,7 @@ background: url(wood.jpg);
 }
 ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
   display: flex;
 }
 li {flex: 20% 1;}
