@@ -62,7 +62,16 @@ body {
     display: none;
 }
 .works-item {
-    background: linear-gradient(#1899499a, #29b32586);
+    background: rgb(52, 122, 73);
+    color: rgba(114, 218, 148, 0.856);
+}
+.main-logo {
+    margin: 0 auto  ;
+    max-width: 80%;
+    width: 180px;
+    height: 180px;
+
+    
 }
 .skill-item1 {
     animation : rotate1 4s  infinite;
