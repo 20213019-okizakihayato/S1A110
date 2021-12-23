@@ -66,12 +66,9 @@ body {
     color: rgba(114, 218, 148, 0.856);
 }
 .main-logo {
-    margin: 0 auto  ;
-    max-width: 80%;
-    width: 180px;
-    height: 180px;
-
-    
+    margin: 0 0 -30% -50% ;
+    width: 400px;
+    height: 400px;
 }
 .skill-item1 {
     animation : rotate1 4s  infinite;
